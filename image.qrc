@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/photo"/>
+    <qresource prefix="/picture">
+        <file>imagess/tju1.jpg</file>
+        <file>imagess/tju2.jpg</file>
+        <file>imagess/tju3.jpg</file>
+        <file>imagess/tju4.jpg</file>
+        <file>imagess/5.jpg</file>
+        <file>imagess/6.jpg</file>
+        <file>imagess/tju7 (1).jpg</file>
+        <file>imagess/tju7 (2).jpg</file>
+        <file>imagess/tju7 (3).jpg</file>
+        <file>imagess/tju7 (4).jpg</file>
+        <file>imagess/tju8.jpg</file>
+        <file>imagess/tju9.jpg</file>
+    </qresource>
+</RCC>

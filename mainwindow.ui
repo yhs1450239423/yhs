@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1186</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1031</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;北京市（京）&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/picture/imagess/tju2.jpg);
+font: 16pt &quot;Adobe Arabic&quot;;</string>
+    </property>
+    <property name="currentIndex">
+     <number>8</number>
+    </property>
+    <widget class="QWidget" name="tab_33">
+     <attribute name="title">
+      <string>北京市</string>
+     </attribute>
+     <widget class="QRadioButton" name="r1">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>115</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>北京</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_34">
+     <attribute name="title">
+      <string>天津市</string>
+     </attribute>
+     <widget class="QRadioButton" name="r2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>115</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>天津</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_35">
+     <attribute name="title">
+      <string>上海市</string>
+     </attribute>
+     <widget class="QRadioButton" name="r3_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>115</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>上海</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_36">
+     <attribute name="title">
+      <string>重庆市</string>
+     </attribute>
+     <widget class="QRadioButton" name="r4_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>115</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>重庆</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_37">
+     <attribute name="title">
+      <string>河北</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_29">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>591</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QCheckBox" name="r51_2">
+         <property name="text">
+          <string>石家庄</string>
+         </property>
+         <property name="autoRepeatDelay">
+          <number>300</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r52_2">
+         <property name="text">
+          <string>唐山</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r53_2">
+         <property name="text">
+          <string>秦皇岛</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r54_2">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>邯郸</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_38">
+     <attribute name="title">
+      <string>河南</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_30">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_30">
+       <item>
+        <widget class="QCheckBox" name="r61_2">
+         <property name="text">
+          <string>郑州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r64_2">
+         <property name="text">
+          <string>焦作</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r62_2">
+         <property name="text">
+          <string>开封</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r63_2">
+         <property name="text">
+          <string>洛阳</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_39">
+     <attribute name="title">
+      <string>云南</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_31">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_31">
+       <item>
+        <widget class="QCheckBox" name="r71_2">
+         <property name="text">
+          <string>昆明</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r72_2">
+         <property name="text">
+          <string>丽江</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r73_2">
+         <property name="text">
+          <string>西双版纳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r74_2">
+         <property name="text">
+          <string>大理</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_40">
+     <attribute name="title">
+      <string>辽宁</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_32">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_32">
+       <item>
+        <widget class="QCheckBox" name="r81_2">
+         <property name="text">
+          <string>沈阳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r82_2">
+         <property name="text">
+          <string>鞍山</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r83_2">
+         <property name="text">
+          <string>大连</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r84_2">
+         <property name="text">
+          <string>本溪</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_41">
+     <attribute name="title">
+      <string>黑龙江</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_33">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_33">
+       <item>
+        <widget class="QCheckBox" name="r91_2">
+         <property name="text">
+          <string>哈尔滨</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r92_2">
+         <property name="text">
+          <string>齐齐哈尔</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r93_2">
+         <property name="text">
+          <string>大庆</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r94_2">
+         <property name="text">
+          <string>佳木斯</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_42">
+     <attribute name="title">
+      <string>湖南</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_34">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_34">
+       <item>
+        <widget class="QCheckBox" name="r101_2">
+         <property name="text">
+          <string>长沙</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r102_2">
+         <property name="text">
+          <string>湘潭</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r103_2">
+         <property name="text">
+          <string>岳阳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r104_2">
+         <property name="text">
+          <string>衡阳</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_43">
+     <attribute name="title">
+      <string>安徽</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_35">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_35">
+       <item>
+        <widget class="QCheckBox" name="r111_2">
+         <property name="text">
+          <string>合肥</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r112_2">
+         <property name="text">
+          <string>芜湖</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r113_2">
+         <property name="text">
+          <string>马鞍山</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r114_2">
+         <property name="text">
+          <string>淮北</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_44">
+     <attribute name="title">
+      <string>山东</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_36">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_36">
+       <item>
+        <widget class="QCheckBox" name="r121_2">
+         <property name="text">
+          <string>济南</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r122_2">
+         <property name="text">
+          <string>青岛</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r123_2">
+         <property name="text">
+          <string>淄博</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r124_2">
+         <property name="text">
+          <string>烟台</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_45">
+     <attribute name="title">
+      <string>新疆</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_37">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_37">
+       <item>
+        <widget class="QCheckBox" name="r131_2">
+         <property name="text">
+          <string>乌鲁木齐</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r132_2">
+         <property name="text">
+          <string>吐鲁番</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r133_2">
+         <property name="text">
+          <string>哈密</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r134_2">
+         <property name="text">
+          <string>和田</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_46">
+     <attribute name="title">
+      <string>江苏</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_38">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_38">
+       <item>
+        <widget class="QCheckBox" name="r141_2">
+         <property name="text">
+          <string>南京</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r142_2">
+         <property name="text">
+          <string>苏州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r143_2">
+         <property name="text">
+          <string>无锡</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r144_2">
+         <property name="text">
+          <string>徐州</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_47">
+     <attribute name="title">
+      <string>浙江</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_39">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_39">
+       <item>
+        <widget class="QCheckBox" name="r151_2">
+         <property name="text">
+          <string>杭州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r152_2">
+         <property name="text">
+          <string>宁波</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r153_2">
+         <property name="text">
+          <string>温州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r154_2">
+         <property name="text">
+          <string>绍兴</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_48">
+     <attribute name="title">
+      <string>江西</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_40">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_40">
+       <item>
+        <widget class="QCheckBox" name="r161_2">
+         <property name="text">
+          <string>南昌</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r162_2">
+         <property name="text">
+          <string>上饶</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r163_2">
+         <property name="text">
+          <string>景德镇</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r164_2">
+         <property name="text">
+          <string>赣州</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_49">
+     <attribute name="title">
+      <string>湖北</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_41">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_41">
+       <item>
+        <widget class="QCheckBox" name="r171_2">
+         <property name="text">
+          <string>武汉</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r172_2">
+         <property name="text">
+          <string>黄石</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r173_2">
+         <property name="text">
+          <string>襄樊</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r174_2">
+         <property name="text">
+          <string>十堰</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_50">
+     <attribute name="title">
+      <string>广西</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_42">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_42">
+       <item>
+        <widget class="QCheckBox" name="r181_2">
+         <property name="text">
+          <string>南宁</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r182_2">
+         <property name="text">
+          <string>柳州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r183_2">
+         <property name="text">
+          <string>桂林</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r184_2">
+         <property name="text">
+          <string>梧州</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_51">
+     <attribute name="title">
+      <string>甘肃</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_43">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_43">
+       <item>
+        <widget class="QCheckBox" name="r191_2">
+         <property name="text">
+          <string>兰州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r192_2">
+         <property name="text">
+          <string>嘉峪关</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r193_2">
+         <property name="text">
+          <string>金昌</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r194_2">
+         <property name="text">
+          <string>白银</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_52">
+     <attribute name="title">
+      <string>山西</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_44">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_44">
+       <item>
+        <widget class="QCheckBox" name="r201_2">
+         <property name="text">
+          <string>太原</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r202_2">
+         <property name="text">
+          <string>大同</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r203_2">
+         <property name="text">
+          <string>阳泉</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r204_2">
+         <property name="text">
+          <string>晋城</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_53">
+     <attribute name="title">
+      <string>内蒙古</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_45">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_45">
+       <item>
+        <widget class="QCheckBox" name="r211_2">
+         <property name="text">
+          <string>呼和浩特</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r212_2">
+         <property name="text">
+          <string>包头</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r213_2">
+         <property name="text">
+          <string>呼伦贝尔</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r214_2">
+         <property name="text">
+          <string>鄂尔多斯</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_54">
+     <attribute name="title">
+      <string>陕西</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_46">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_46">
+       <item>
+        <widget class="QCheckBox" name="r221_2">
+         <property name="text">
+          <string>西安</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r222_2">
+         <property name="text">
+          <string>铜川</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r223_2">
+         <property name="text">
+          <string>宝鸡</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r224_2">
+         <property name="text">
+          <string>咸阳</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_55">
+     <attribute name="title">
+      <string>吉林</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_47">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_47">
+       <item>
+        <widget class="QCheckBox" name="r231_2">
+         <property name="text">
+          <string>长春</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r232_2">
+         <property name="text">
+          <string>四平</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r233_2">
+         <property name="text">
+          <string>延边</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r234_2">
+         <property name="text">
+          <string>白化</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_56">
+     <attribute name="title">
+      <string>福建</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_48">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_48">
+       <item>
+        <widget class="QCheckBox" name="r241_2">
+         <property name="text">
+          <string>福州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r242_2">
+         <property name="text">
+          <string>厦门</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r243_2">
+         <property name="text">
+          <string>莆田</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r244_2">
+         <property name="text">
+          <string>泉州</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_57">
+     <attribute name="title">
+      <string>贵州</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_49">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_49">
+       <item>
+        <widget class="QCheckBox" name="r251_2">
+         <property name="text">
+          <string>贵阳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r252_2">
+         <property name="text">
+          <string>遵义</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r253_2">
+         <property name="text">
+          <string>安顺</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r254_2">
+         <property name="text">
+          <string>铜仁</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_58">
+     <attribute name="title">
+      <string>广东</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_50">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_50">
+       <item>
+        <widget class="QCheckBox" name="r261_2">
+         <property name="text">
+          <string>广州</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r262_2">
+         <property name="text">
+          <string>深圳</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r263_2">
+         <property name="text">
+          <string>珠海</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r264_2">
+         <property name="text">
+          <string>汕头</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_59">
+     <attribute name="title">
+      <string>青海</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_51">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_51">
+       <item>
+        <widget class="QCheckBox" name="r271_2">
+         <property name="text">
+          <string>西宁</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r272_2">
+         <property name="text">
+          <string>海东</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r273_2">
+         <property name="text">
+          <string>海北</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r274_2">
+         <property name="text">
+          <string>玉树</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_60">
+     <attribute name="title">
+      <string>西藏</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_52">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_52">
+       <item>
+        <widget class="QCheckBox" name="r281_2">
+         <property name="text">
+          <string>拉萨</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r282_2">
+         <property name="text">
+          <string>昌都</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r283_2">
+         <property name="text">
+          <string>山南</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r284_2">
+         <property name="text">
+          <string>阿里</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_61">
+     <attribute name="title">
+      <string>四川</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_53">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_53">
+       <item>
+        <widget class="QCheckBox" name="r291_2">
+         <property name="text">
+          <string>成都</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r292_2">
+         <property name="text">
+          <string>自贡</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r293_2">
+         <property name="text">
+          <string>攀枝花</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r294_2">
+         <property name="text">
+          <string>德阳</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_62">
+     <attribute name="title">
+      <string>宁夏</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_54">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_54">
+       <item>
+        <widget class="QCheckBox" name="r301_2">
+         <property name="text">
+          <string>银川</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r302_2">
+         <property name="text">
+          <string>吴中</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r303_2">
+         <property name="text">
+          <string>石嘴山</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r304_2">
+         <property name="text">
+          <string>中卫</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_63">
+     <attribute name="title">
+      <string>海南</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_55">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>271</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_55">
+       <item>
+        <widget class="QCheckBox" name="r311_2">
+         <property name="text">
+          <string>海口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r312_2">
+         <property name="styleSheet">
+          <string notr="true">font: 75 9pt &quot;楷体&quot;;
+font: 16pt &quot;Adobe Arabic&quot;;
+</string>
+         </property>
+         <property name="text">
+          <string>三亚</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>490</y>
+        <width>54</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_64">
+     <attribute name="title">
+      <string>台湾</string>
+     </attribute>
+     <widget class="QWidget" name="horizontalLayoutWidget_56">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>561</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_56">
+       <item>
+        <widget class="QCheckBox" name="r321_2">
+         <property name="text">
+          <string>台北</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r322_2">
+         <property name="text">
+          <string>高雄</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r323_2">
+         <property name="text">
+          <string>台南</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="r324_2">
+         <property name="text">
+          <string>台中</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>500</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 16pt &quot;Adobe Caslon Pro Bold&quot;;
+
+color:rgb(239,41,41);
+</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1084</x>
+      <y>442</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Adobe Arabic&quot;;
+font: 75 16pt &quot;Adobe Caslon Pro Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>play</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1084</x>
+      <y>392</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 75 16pt &quot;Adobe Caslon Pro Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>pause</string>
+    </property>
+   </widget>
+   <zorder>pushButton</zorder>
+   <zorder>tabWidget_2</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1186</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>留下你的足迹</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
